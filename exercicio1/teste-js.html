@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="botao">Mostrar mensagem</button>
+    <p id="mensagem"></p>
+    <script>
+        const botao = document.querySelector("#botao")
+
+        botao.addEventListener("click", ()=>{
+            document.querySelector("#mensagem").textContent = "bem vindo ao websummit 2026!";
+        });
+    </script>
+</body>
+</html>
